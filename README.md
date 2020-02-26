@@ -26,20 +26,35 @@ python sample.py
 # Contents
 
 ### 01
+![01](https://user-images.githubusercontent.com/37477845/75368668-6ad0d180-5905-11ea-93c0-635ba29a2a05.gif)
+
 
 ### 02
+![02](https://user-images.githubusercontent.com/37477845/75368708-77edc080-5905-11ea-9c11-f80373aa9ec2.gif)
+
 
 ### 03
+![03](https://user-images.githubusercontent.com/37477845/75368731-84721900-5905-11ea-9794-1921e867120c.gif)
+
 
 ### 04
+![04](https://user-images.githubusercontent.com/37477845/75368740-86d47300-5905-11ea-98ad-ee367e4fbe3b.gif)
+
 
 ### 05
+![05](https://user-images.githubusercontent.com/37477845/75368749-8b009080-5905-11ea-97d3-8b857a18748e.gif)
+
 
 ### 06
+![06](https://user-images.githubusercontent.com/37477845/75368756-8fc54480-5905-11ea-8dff-4f4f9437c76b.gif)
+
 
 ### 07
+![07](https://user-images.githubusercontent.com/37477845/75368779-9653bc00-5905-11ea-889e-b5e5c7e5be76.gif)
+
 
 ### 08
+![08](https://user-images.githubusercontent.com/37477845/75368785-994eac80-5905-11ea-9383-b3e0f96582eb.gif)
 
 
 # Note
