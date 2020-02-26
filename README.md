@@ -1,20 +1,21 @@
 # object-detection-bbox-art
- ƒoƒEƒ“ƒfƒBƒ“ƒOƒ{ƒbƒNƒX‚Ì‘•ü—p‚ÌŠÖ”ŒQ‚Å‚·B
- ¡‚Ü‚Å‚Éì‚Á‚½‚à‚Ì‚ªG‘½‚É“ü‚Á‚Ä‚¢‚Ü‚·B
+ ãƒã‚¦ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ãƒœãƒƒã‚¯ã‚¹ã®è£…é£¾ç”¨ã®é–¢æ•°ç¾¤ã§ã™ã€‚
+ 
+ ä»Šã¾ã§ã«ä½œã£ãŸã‚‚ã®ãŒé›‘å¤šã«å…¥ã£ã¦ã„ã¾ã™ã€‚
 
 # Requirement
  
 * OpenCV 3.4.2
 * Pillow 6.1.0
-* Tensorflow 1.14.0(sample.py‚ğ“®‚©‚·ê‡‚Ì‚İ)
+* Tensorflow 1.14.0(sample.pyã‚’å‹•ã‹ã™å ´åˆã®ã¿)
  
 # Installation
  
-—˜—p‚µ‚½‚¢PythonƒvƒƒOƒ‰ƒ€‚Æ“¯ŠK‘w‚Éboundingbox_artƒfƒBƒŒƒNƒgƒŠ‚ğƒRƒs[‚µ‚Ä‚­‚¾‚³‚¢B
+åˆ©ç”¨ã—ãŸã„Pythonãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¨åŒéšå±¤ã«boundingbox_artãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ã‚³ãƒ”ãƒ¼ã—ã¦ãã ã•ã„ã€‚
 
 # Usage
  
-ƒTƒ“ƒvƒ‹‚ÌÀs•û–@‚ÍˆÈ‰º‚Å‚·B
+ã‚µãƒ³ãƒ—ãƒ«ã®å®Ÿè¡Œæ–¹æ³•ã¯ä»¥ä¸‹ã§ã™ã€‚
  
 ```bash
 python sample.py
@@ -31,7 +32,7 @@ python sample.py
 
  
 # Author
-‚‹´‚©‚¸‚Ğ‚Æ(https://twitter.com/KzhtTkhs)
+é«˜æ©‹ã‹ãšã²ã¨(https://twitter.com/KzhtTkhs)
  
 # License 
 tensorflow2-keras-learn is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
