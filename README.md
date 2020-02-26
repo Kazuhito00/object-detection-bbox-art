@@ -52,4 +52,10 @@ python sample.py
 高橋かずひと(https://twitter.com/KzhtTkhs)
  
 # License 
-tensorflow2-keras-learn is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+object-detection-bbox-art is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+
+文字描画には、それぞれ以下のフォントを利用しています。
+各フォントの著作権は各作者に属します。
+* 02：衡山毛筆フォント(https://opentype.jp/kouzanmouhitufont.htm)
+* 06：x12y20pxScanLineフォント(http://www17.plala.or.jp/xxxxxxx/00ff/)
+* 08：M+ C Type-1フォント(http://mplus-fonts.osdn.jp/about.html)
