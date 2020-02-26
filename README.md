@@ -42,6 +42,10 @@ python sample.py
 
 # Note
 
+サンプル用に同梱している手検出用の「frozen_inference_graph.pb」もご自由に利用していただいて構いません。
+
+また、トレーニングをし直して精度アップ版に差し替える予定です。
+
  
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
