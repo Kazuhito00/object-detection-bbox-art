@@ -54,6 +54,7 @@ python sample.py
 # License 
 object-detection-bbox-art is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
+# License(Font)
 文字描画には、それぞれ以下のフォントを利用しています。
 各フォントの著作権は各作者に属します。
 * 02：衡山毛筆フォント(https://opentype.jp/kouzanmouhitufont.htm)
