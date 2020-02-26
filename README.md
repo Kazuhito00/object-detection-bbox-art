@@ -44,6 +44,7 @@ python sample.py
 :---:|:---:
 |![07](https://user-images.githubusercontent.com/37477845/75368779-9653bc00-5905-11ea-889e-b5e5c7e5be76.gif)|![08](https://user-images.githubusercontent.com/37477845/75368785-994eac80-5905-11ea-9383-b3e0f96582eb.gif)|
 
+その他、順次追加予定。。。
 
 # Note
 
