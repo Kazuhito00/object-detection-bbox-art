@@ -13,7 +13,7 @@
  
 利用したいPythonプログラムと同階層にboundingbox_artディレクトリをコピーしてください。
 
-使用方法はsample.pyを参照してください。
+使用方法はsample.pyを参考にしてください。
 
 # Usage
  
