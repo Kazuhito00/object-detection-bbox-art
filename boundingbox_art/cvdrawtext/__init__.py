@@ -1,0 +1,1 @@
+from boundingbox_art.cvdrawtext.cvdrawtext import CvDrawText
