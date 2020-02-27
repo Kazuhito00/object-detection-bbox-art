@@ -18,6 +18,7 @@ bba_function = [
     [bba_translucent_rectangle_fill1, u'HAND'],
     [bba_square_obit, None],
     [bba_annotation_line, u'検出結果：手'],
+    [bba_ground_glass, None],
 ]
 
 
