@@ -12,11 +12,11 @@ def bba_black_ring_wa(
         p1,
         p2,
         color=(185, 0, 0),
-        tickness=None,
-        font='resources/font/衡山毛筆フォント.ttf',
+        thickness=None,  # unused
+        font='boundingbox_art/cvdrawtext/font/衡山毛筆フォント.ttf',
         text=None,
-        fps=10,
-        animation_count=0,
+        fps=None,  # unused
+        animation_count=None,  # unused
 ):
 
     draw_image = copy.deepcopy(image)

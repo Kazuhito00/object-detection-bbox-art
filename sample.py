@@ -21,6 +21,22 @@ bba_function = [
 ]
 
 
+def graph_load(path):
+    config = tf.compat.v1.ConfigProto(
+        gpu_options=tf.compat.v1.GPUOptions(allow_growth=True))
+
+    with tf.compat.v1.Graph().as_default() as net_graph:
+        graph_data = tf.gfile.FastGFile(path, 'rb').read()
+        graph_def = tf.compat.v1.GraphDef()
+        graph_def.ParseFromString(graph_data)
+        tf.import_graph_def(graph_def, name='')
+
+    sess = tf.compat.v1.Session(graph=net_graph, config=config)
+    sess.graph.as_default()
+
+    return sess
+
+
 def session_run(sess, inp):
     out = sess.run(
         [
@@ -43,16 +59,7 @@ def main():
     cap.set(cv.CAP_PROP_FRAME_HEIGHT, 720)
 
     # 手検出モデルロード #######################################################
-    config = tf.compat.v1.ConfigProto(
-        gpu_options=tf.compat.v1.GPUOptions(allow_growth=True))
-    with tf.compat.v1.Graph().as_default() as net_graph:
-        graph_data = tf.gfile.FastGFile(
-            'resources/model/frozen_inference_graph.pb', 'rb').read()
-        graph_def = tf.compat.v1.GraphDef()
-        graph_def.ParseFromString(graph_data)
-        tf.import_graph_def(graph_def, name='')
-    sess = tf.compat.v1.Session(graph=net_graph, config=config)
-    sess.graph.as_default()
+    sess = graph_load('model/frozen_inference_graph.pb')
 
     index = 0
     fps = 10

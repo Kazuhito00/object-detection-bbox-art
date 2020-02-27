@@ -2,21 +2,22 @@
 # -*- coding: utf-8 -*-
 
 import copy
-import numpy as np
 import cv2 as cv
 
 from boundingbox_art.cvdrawtext import CvDrawText
 
 
-def bba_annotation_line(image,
-                        p1,
-                        p2,
-                        color=(255, 255, 255),
-                        tickness=5,
-                        font='resources/font/mplus-1c-regular.ttf',
-                        text=None,
-                        fps=10,
-                        animation_count=0):
+def bba_annotation_line(
+        image,
+        p1,
+        p2,
+        color=(255, 255, 255),
+        thickness=None,  # unused
+        font='boundingbox_art/cvdrawtext/font/mplus-1c-regular.ttf',
+        text=None,
+        fps=None,  # unused
+        animation_count=None,  # unused
+):
 
     draw_image = copy.deepcopy(image)
 

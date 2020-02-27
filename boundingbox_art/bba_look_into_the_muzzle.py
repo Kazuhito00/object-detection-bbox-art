@@ -10,12 +10,12 @@ def bba_look_into_the_muzzle_mask(
         image,
         p1,
         p2,
-        color=(0, 0, 0),
-        tickness=5,
-        font=None,
-        text=None,
-        fps=10,
-        animation_count=0,
+        color=None,  # unused
+        thickness=None,  # unused
+        font=None,  # unused
+        text=None,  # unused
+        fps=None,  # unused
+        animation_count=None,  # unused
         mask_image=None,
 ):
     image_width, image_height = image.shape[1], image.shape[0]
@@ -40,20 +40,22 @@ def bba_look_into_the_muzzle_fix(image, mask_image):
     return draw_image
 
 
-def bba_look_into_the_muzzle(image,
-                             p1,
-                             p2,
-                             color=(0, 0, 0),
-                             tickness=5,
-                             font=None,
-                             text=None,
-                             fps=10,
-                             animation_count=0):
+def bba_look_into_the_muzzle(
+        image,
+        p1,
+        p2,
+        color=None,  # unused
+        thickness=None,  # unused
+        font=None,  # unused
+        text=None,  # unused
+        fps=None,  # unused
+        animation_count=None,  # unused
+):
 
     draw_image = copy.deepcopy(image)
 
     mask_image = bba_look_into_the_muzzle_mask(
-        image, p1, p2, color, tickness, font, text, fps, animation_count)
+        image, p1, p2, color, thickness, font, text, fps, animation_count)
     draw_image = bba_look_into_the_muzzle_fix(draw_image, mask_image)
 
     return draw_image

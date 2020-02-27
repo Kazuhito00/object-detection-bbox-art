@@ -8,15 +8,17 @@ import cv2 as cv
 from boundingbox_art.cvdrawtext import CvDrawText
 
 
-def bba_translucent_rectangle(image,
-                              p1,
-                              p2,
-                              color=(0, 64, 0),
-                              tickness=5,
-                              font=None,
-                              text=None,
-                              fps=10,
-                              animation_count=0):
+def bba_translucent_rectangle(
+        image,
+        p1,
+        p2,
+        color=(0, 64, 0),
+        thickness=5,
+        font=None,  # unused
+        text=None,  # unused
+        fps=None,  # unused
+        animation_count=None,  # unused
+):
 
     draw_image = copy.deepcopy(image)
     image_width, image_height = draw_image.shape[1], draw_image.shape[0]
@@ -25,21 +27,24 @@ def bba_translucent_rectangle(image,
     x2, y2 = p2[0], p2[1]
 
     draw_add_image = np.zeros((image_height, image_width, 3), np.uint8)
-    cv.rectangle(draw_add_image, (x1, y1), (x2, y2), color, thickness=tickness)
+    cv.rectangle(
+        draw_add_image, (x1, y1), (x2, y2), color, thickness=thickness)
     draw_image = cv.add(draw_image, draw_add_image)
 
     return draw_image
 
 
-def bba_translucent_rectangle_fill1(image,
-                                    p1,
-                                    p2,
-                                    color=(0, 64, 0),
-                                    tickness=0,
-                                    font='resources/font/x12y20pxScanLine.ttf',
-                                    text=None,
-                                    fps=10,
-                                    animation_count=0):
+def bba_translucent_rectangle_fill1(
+        image,
+        p1,
+        p2,
+        color=(0, 64, 0),
+        thickness=None,  # unused
+        font='boundingbox_art/cvdrawtext/font/x12y20pxScanLine.ttf',
+        text=None,
+        fps=None,  # unused
+        animation_count=None,  # unused
+):
 
     draw_image = copy.deepcopy(image)
     image_width, image_height = draw_image.shape[1], draw_image.shape[0]
@@ -70,15 +75,17 @@ def bba_translucent_rectangle_fill1(image,
     return draw_image
 
 
-def bba_translucent_circle(image,
-                           p1,
-                           p2,
-                           color=(128, 0, 0),
-                           tickness=5,
-                           font=None,
-                           text=None,
-                           fps=10,
-                           animation_count=0):
+def bba_translucent_circle(
+        image,
+        p1,
+        p2,
+        color=(128, 0, 0),
+        thickness=5,
+        font=None,  # unused
+        text=None,  # unused
+        fps=None,  # unused
+        animation_count=None,  # unused
+):
 
     draw_image = copy.deepcopy(image)
     image_width, image_height = draw_image.shape[1], draw_image.shape[0]
@@ -91,7 +98,7 @@ def bba_translucent_circle(image,
         draw_add_image, (int((x1 + x2) / 2), int((y1 + y2) / 2)),
         int((y2 - y1) * (1 / 2)),
         color,
-        thickness=tickness)
+        thickness=thickness)
     draw_image = cv.add(draw_image, draw_add_image)
 
     return draw_image
