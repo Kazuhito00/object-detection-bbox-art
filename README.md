@@ -48,7 +48,7 @@ python sample.py
 
 |09：すりガラス|10：-|
 :---:|:---:
-|![09](https://user-images.githubusercontent.com/37477845/75457241-a16b2280-59bf-11ea-890e-d78535bb0d15.gif)||
+|![09](https://user-images.githubusercontent.com/37477845/75457241-a16b2280-59bf-11ea-890e-d78535bb0d15.gif)|![00](https://user-images.githubusercontent.com/37477845/75458245-e479c580-59c0-11ea-9217-360160b4775e.gif)|
 
 その他、順次追加予定。。。
 
