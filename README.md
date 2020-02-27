@@ -46,6 +46,10 @@ python sample.py
 :---:|:---:
 |![07](https://user-images.githubusercontent.com/37477845/75368779-9653bc00-5905-11ea-889e-b5e5c7e5be76.gif)|![08](https://user-images.githubusercontent.com/37477845/75455153-7979c000-59bb-11ea-97e8-e10a781c6ff3.gif)|
 
+|09：すりガラス|10：-|
+:---:|:---:
+|![09](https://user-images.githubusercontent.com/37477845/75457241-a16b2280-59bf-11ea-890e-d78535bb0d15.gif)||
+
 その他、順次追加予定。。。
 
 # Note
