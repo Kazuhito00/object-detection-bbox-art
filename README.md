@@ -44,7 +44,7 @@ python sample.py
 
 |07：スクエアローディング風|08：注釈線|
 :---:|:---:
-|![07](https://user-images.githubusercontent.com/37477845/75368779-9653bc00-5905-11ea-889e-b5e5c7e5be76.gif)|![08](https://user-images.githubusercontent.com/37477845/75455109-b98c7300-59ba-11ea-92e0-3857370d7fde.gif)|
+|![07](https://user-images.githubusercontent.com/37477845/75368779-9653bc00-5905-11ea-889e-b5e5c7e5be76.gif)|![08](https://user-images.githubusercontent.com/37477845/75455153-7979c000-59bb-11ea-97e8-e10a781c6ff3.gif)|
 
 その他、順次追加予定。。。
 
