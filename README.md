@@ -46,9 +46,14 @@ python sample.py
 :---:|:---:
 |![07](https://user-images.githubusercontent.com/37477845/75368779-9653bc00-5905-11ea-889e-b5e5c7e5be76.gif)|![08](https://user-images.githubusercontent.com/37477845/75455153-7979c000-59bb-11ea-97e8-e10a781c6ff3.gif)|
 
-|09：すりガラス|10：-|
+|09：すりガラス|10：SOUND ONLY モノリス|
 :---:|:---:
-|![09](https://user-images.githubusercontent.com/37477845/75457241-a16b2280-59bf-11ea-890e-d78535bb0d15.gif)|![00](https://user-images.githubusercontent.com/37477845/75458245-e479c580-59c0-11ea-9217-360160b4775e.gif)|
+|![09](https://user-images.githubusercontent.com/37477845/75457241-a16b2280-59bf-11ea-890e-d78535bb0d15.gif)|![10](https://user-images.githubusercontent.com/37477845/75578386-19604800-5aa7-11ea-9506-d468e8273d4e.gif)|
+
+|11：-|
+:---:|
+|![00](https://user-images.githubusercontent.com/37477845/75458245-e479c580-59c0-11ea-9217-360160b4775e.gif)|
+
 
 その他、順次追加予定。。。
 
@@ -72,3 +77,4 @@ object-detection-bbox-art is under [MIT license](https://en.wikipedia.org/wiki/M
 * 02：衡山毛筆フォント(https://opentype.jp/kouzanmouhitufont.htm)
 * 06：x12y20pxScanLineフォント(http://www17.plala.or.jp/xxxxxxx/00ff/)
 * 08：M+ C Type-1フォント(http://mplus-fonts.osdn.jp/about.html)
+* 10：Chicagoフォント(http://fonts3.com/fonts/c/Chicago.html) ※ライセンス不明なため同梱していません
