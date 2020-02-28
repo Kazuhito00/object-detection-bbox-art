@@ -10,3 +10,4 @@ from boundingbox_art.bba_look_into_the_muzzle import bba_look_into_the_muzzle_fi
 from boundingbox_art.bba_square_obit import bba_square_obit
 from boundingbox_art.bba_annotation_line import bba_annotation_line
 from boundingbox_art.bba_ground_glass import bba_ground_glass
+from boundingbox_art.bba_sound_only_monolith import bba_sound_only_monolith

@@ -19,6 +19,7 @@ bba_function = [
     [bba_square_obit, None],
     [bba_annotation_line, u'検出結果：手'],
     [bba_ground_glass, None],
+    [bba_sound_only_monolith, 'HAND'],
 ]
 
 
