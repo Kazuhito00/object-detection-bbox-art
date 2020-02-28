@@ -14,7 +14,8 @@ def bba_sound_only_monolith(
         p2,
         color=None,  # unused
         thickness=None,  # unused
-        font='boundingbox_art/cvdrawtext/font/Chicago.ttf',
+        # font='boundingbox_art/cvdrawtext/font/Chicago.ttf',
+        font=None,
         text=None,
         fps=None,  # unused
         animation_count=None,  # unused
@@ -46,17 +47,17 @@ def bba_sound_only_monolith(
              int(((y1 + y2) / 2) - (font_size / 0.65))), font,
             int(font_size / 2.5), (212, 0, 58))
 
-    draw_image = CvDrawText.puttext(draw_image, str(format(
-        number, '02')), (int(((x1 + x2) / 2) - (font_size / 1.6)),
-                         int(((y1 + y2) / 2) - (font_size / 0.8))), font,
-                                    font_size, (212, 0, 58))
-    draw_image = CvDrawText.puttext(
-        draw_image, 'SOUND', (int(((x1 + x2) / 2) - (font_size / 1.5)),
-                              int(((y1 + y2) / 2) - (font_size / 3.5))), font,
-        int(font_size / 2.5), (212, 0, 58))
-    draw_image = CvDrawText.puttext(
-        draw_image, 'ONLY', (int(((x1 + x2) / 2) - (font_size / 1.9)),
-                             int(((y1 + y2) / 2) + (font_size / 10))), font,
-        int(font_size / 2.5), (212, 0, 58))
+        draw_image = CvDrawText.puttext(draw_image, str(format(
+            number, '02')), (int(((x1 + x2) / 2) - (font_size / 1.6)),
+                             int(((y1 + y2) / 2) - (font_size / 0.8))), font,
+                                        font_size, (212, 0, 58))
+        draw_image = CvDrawText.puttext(
+            draw_image, 'SOUND', (int(((x1 + x2) / 2) - (font_size / 1.5)),
+                                  int(((y1 + y2) / 2) - (font_size / 3.5))),
+            font, int(font_size / 2.5), (212, 0, 58))
+        draw_image = CvDrawText.puttext(
+            draw_image, 'ONLY', (int(((x1 + x2) / 2) - (font_size / 1.9)),
+                                 int(((y1 + y2) / 2) + (font_size / 10))),
+            font, int(font_size / 2.5), (212, 0, 58))
 
     return draw_image
