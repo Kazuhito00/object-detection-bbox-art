@@ -50,9 +50,9 @@ python sample.py
 :---:|:---:
 |![09](https://user-images.githubusercontent.com/37477845/75457241-a16b2280-59bf-11ea-890e-d78535bb0d15.gif)|![10](https://user-images.githubusercontent.com/37477845/75578386-19604800-5aa7-11ea-9506-d468e8273d4e.gif)|
 
-|11：-|
+|11：3本追いかけっこ|12：-|
 :---:|
-|![00](https://user-images.githubusercontent.com/37477845/75458245-e479c580-59c0-11ea-9217-360160b4775e.gif)|
+|![11](https://user-images.githubusercontent.com/37477845/76773952-9d743880-67e6-11ea-8a69-0504017d6721.gif)|![00](https://user-images.githubusercontent.com/37477845/75458245-e479c580-59c0-11ea-9217-360160b4775e.gif)|
 
 
 その他、順次追加予定。。。
