@@ -20,6 +20,7 @@ bba_function = [
     [bba_annotation_line, u'検出結果：手'],
     [bba_ground_glass, None],
     [bba_sound_only_monolith, 'HAND'],
+    [bba_rotate_tag3, None],
 ]
 
 
