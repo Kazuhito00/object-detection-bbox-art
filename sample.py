@@ -4,7 +4,11 @@
 import time
 import copy
 import cv2 as cv
-import tensorflow as tf
+
+try:
+    import tensorflow.compat.v1 as tf
+except Exception:
+    import tensorflow as tf
 
 from boundingbox_art import *
 
@@ -25,8 +29,8 @@ bba_function = [
 
 
 def graph_load(path):
-    config = tf.compat.v1.ConfigProto(
-        gpu_options=tf.compat.v1.GPUOptions(allow_growth=True))
+    config = tf.ConfigProto(gpu_options=tf.compat.v1.GPUOptions(
+        allow_growth=True))
 
     with tf.compat.v1.Graph().as_default() as net_graph:
         graph_data = tf.gfile.FastGFile(path, 'rb').read()
@@ -112,7 +116,7 @@ def main():
                    str(bba_function[index][0].__name__) + '()', (10, 50),
                    cv.FONT_HERSHEY_COMPLEX, 1.0, (0, 255, 0))
         cv.imshow(' ', debug_image)
-        cv.moveWindow(' ', 100, 100)
+        cv.moveWindow(' ', 10, 10)
 
         # キー処理(N：次へ、P：前へ、ESC：終了) #################################
         key = cv.waitKey(1)
